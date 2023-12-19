@@ -1,5 +1,12 @@
 body {
   font-family: roboto, san-serif;
+  color: #434455;
+}
+footer {
+  background: #2e2f42;
+}
+.section-one {
+  background: #2e2f42;
 }
 .logo-first {
   color: #4d5ae5;
@@ -18,4 +25,25 @@ body {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: -0.03em;
+}
+.logo-two-foot {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+}
+a {
+  text-decoration: none;
+}
+.maine-text {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
