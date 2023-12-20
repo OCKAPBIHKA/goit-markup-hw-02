@@ -1,9 +1,7 @@
 body {
   font-family: roboto, san-serif;
   color: #434455;
-}
-footer {
-  background: #2e2f42;
+  background-color: #fff;
 }
 .section-one {
   background: #2e2f42;
@@ -15,7 +13,8 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-two {
   color: #2e2f42;
@@ -24,7 +23,8 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-two-foot {
   color: #f4f4fd;
@@ -33,8 +33,10 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
 a {
   text-decoration: none;
 }
@@ -46,4 +48,8 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+}
+
+footer {
+  background: #2e2f42;
 }
