@@ -3,53 +3,151 @@ body {
   color: #434455;
   background-color: #fff;
 }
-.section-one {
-  background: #2e2f42;
-}
-.logo-first {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-two {
-  color: #2e2f42;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-two-foot {
-  color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 
 a {
   text-decoration: none;
 }
-.maine-text {
-  color: #fff;
-  text-align: center;
-  font-size: 56px;
+
+ul,
+ol {
+  list-style: none;
+}
+
+.header-one {}
+
+.navigation {}
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
   font-style: normal;
+  font-weight: 700;
+  line-height: 1.17 letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-two {
+  color: #2E2F42;
+}
+
+.list-nav {}
+
+.item-nav {}
+
+.link-nav {
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: #404BBF
+}
+
+.adress {
+  font-style: normal;
+}
+
+.list-adress {}
+
+.item-adress {}
+
+.link-adress {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5 letter-spacing: 0.02em;
+}
+
+.link-adress:hover,
+.link-adress:focus {
+  color: #404BBF;
+}
+
+/* ------------------SECTION1--------------- */
+.section-one {
+  background-color: #2E2F42;
+}
+
+.maine-text {
+  color: var(--WHITE, #FFF);
+  font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
-footer {
-  background: #2e2f42;
+.button-one {
+  color: #FFF;
+  background: #4D5AE5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button-one:hover,
+.button-one:focus {
+  background: #404BBF
+}
+
+/* ----------------SECTION2-------------------- */
+.section-two {}
+
+.list-advantages {}
+
+.link-advantages {}
+
+.name-advantages {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-advantages {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ---------------SECTION3------------------- */
+.section-team {}
+
+.our-team {
+  color: #2E2F42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.list-team {}
+
+.link-team {}
+
+.img-team {}
+
+.name-team {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.profession-team {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
