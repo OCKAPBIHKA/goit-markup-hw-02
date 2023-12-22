@@ -1,5 +1,5 @@
 body {
-  font-family: roboto, san-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -78,6 +78,7 @@ ol {
 .maine-text {
   color: var(--WHITE, #FFF);
   font-size: 56px;
+  text-align: center;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -86,6 +87,8 @@ ol {
 .button-one {
   color: #FFF;
   background: #4D5AE5;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -129,6 +132,7 @@ ol {
   color: #2E2F42;
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -136,7 +140,9 @@ ol {
 
 .list-team {}
 
-.link-team {}
+.link-team {
+  background-color: #FFFFFF
+}
 
 .img-team {}
 
@@ -164,6 +170,7 @@ ol {
 .our-portfolio {
   color: #2E2F42;
   font-size: 36px;
+  text-align: center;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -195,7 +202,7 @@ ol {
 
 .logo-footer {
   color: #4D5AE5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -206,11 +213,11 @@ ol {
 
 .logo-two-footer {
   color: #F4F4FD;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
